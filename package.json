@@ -1,0 +1,8 @@
+{
+  "name": "ast project 2017",
+  "description": "simple project for ECE AST class",
+  "version": "0.0.1",
+  "dependencies": {
+    "gulp": "1.0"
+  }
+}
