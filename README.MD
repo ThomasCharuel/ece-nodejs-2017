@@ -2,9 +2,22 @@
 
 simple project for ECE AST class
 
-# Deployement
+## Installation instructions 
 
-npm run build
+Just clone it from github
 
-# Contributors
+## Run 
 
+Use `node app.js`
+
+## Tests 
+
+For later 
+
+## Contributors
+
+Thomas Charuel
+
+## License 
+
+Apache2
