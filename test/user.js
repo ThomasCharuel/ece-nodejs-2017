@@ -2,8 +2,7 @@ var should = require('should');
 var user = require('../lib/user');
 
 describe('user', function(){
-  it('save properly', function(done){
-    
+  it('saves properly', function(done){
     user.save("ok", "pwd", function(err){
       should.not.exist(err);
       done();
@@ -17,9 +16,10 @@ describe('user', function(){
     });
   });
 
-  it('get', function(done){
-    // ...
-    
-    done();
+  it('gets properly', function(done){
+    user.get("userTest", function(err){
+      should.not.exist(err);
+      done();
+    });
   });
-})
+});
