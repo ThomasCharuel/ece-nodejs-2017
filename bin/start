@@ -1,1 +1,1 @@
-node src/app.js
+node lib/app.js
