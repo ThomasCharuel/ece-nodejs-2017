@@ -6,7 +6,8 @@
     "gulp": "1.0"
   },
   "scripts": {
-    "test": "mocha test/user.js"
+    "start": "node src/app.js",
+    "test": "mocha test/*"
   },
   "devDependencies": {
     "mocha": "^4.0.1",
