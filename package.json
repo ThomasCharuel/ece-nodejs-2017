@@ -4,5 +4,12 @@
   "version": "0.0.1",
   "dependencies": {
     "gulp": "1.0"
+  },
+  "scripts": {
+    "test": "mocha test/user.js"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.1"
   }
 }
