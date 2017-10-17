@@ -3,6 +3,7 @@
   "description": "simple project for ECE AST class",
   "version": "0.0.1",
   "dependencies": {
+    "coffee-script": "^1.12.7",
     "gulp": "1.0"
   },
   "scripts": {
