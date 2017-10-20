@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e # Set bash flag to interrupt if any command fails
+
+compileCoffee() {
+  echo "Compiling coffee files"
+  node_modules/.bin/coffee --compile --output lib src
+}
+
+compilePug() {
+  echo "compile Pug files"
+  node_modules/.bin/pug views --out public/html --pretty
+}
+
+compileCoffee
+compilePug

@@ -12,7 +12,8 @@
   },
   "scripts": {
     "start": "bash ./bin/start",
-    "test": "bash ./bin/test tests/*"
+    "test": "bash ./bin/test tests/*",
+    "compile": "bash ./bin/compile"
   },
   "devDependencies": {
     "mocha": "^4.0.1",
