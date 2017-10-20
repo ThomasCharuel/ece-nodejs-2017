@@ -1,1 +1,3 @@
-node lib/app.js
+#!/bin/bash
+
+node_modules/.bin/coffee src/index.coffee

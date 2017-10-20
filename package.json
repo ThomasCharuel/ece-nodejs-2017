@@ -7,8 +7,8 @@
     "gulp": "1.0"
   },
   "scripts": {
-    "start": "node src/app.js",
-    "test": "mocha test/*"
+    "start": "sh ./bin/start",
+    "test": "sh ./bin/test tests/*"
   },
   "devDependencies": {
     "mocha": "^4.0.1",
