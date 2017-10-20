@@ -5,13 +5,13 @@ module.exports =
   # - Pwd = password
   # - Callback = function to call when done
   save: (name, pwd, callback) ->
-    if callback == null
+    if !callback
       callback = pwd
       callback new Error "missing parameters"
     else
       # console.log("saving " + name + " with pwd " + pwd);
-      callback();
+      callback()
 
   get: (name, callback) ->
     # console.log("getting " + name);
-    callback();
+    callback()
